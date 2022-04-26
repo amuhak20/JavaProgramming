@@ -9,7 +9,7 @@ public static void main(String[] args) {
 		for(int j=i+1; j<a.length; j++)
 		{
 		
-		if(a[i]%100 > a[j]%100)
+		if(a[i]%10 > a[j]%10)
 		{
 			temp=a[i];
 			a[i]=a[j];
